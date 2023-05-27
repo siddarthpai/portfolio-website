@@ -2,8 +2,8 @@ import './app.css';
 import React from 'react';
 import Typewriter from "typewriter-effect";
 import { BrowserRouter as Router, Switch, Route, Redirect,} from "react-router-dom";
-import About from "/home/siddarth_pai/portfolio-website/portfolio/src/about/App"
-import S from "/home/siddarth_pai/portfolio-website/portfolio/src/images/s.png"
+import About from "/home/sid/portfolio-website/portfolio/src/about/App"
+import S from "/home/sid/portfolio-website/portfolio/src/images/s.png"
 function App() {
   return (
 
