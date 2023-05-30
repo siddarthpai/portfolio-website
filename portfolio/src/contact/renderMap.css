@@ -1,0 +1,13 @@
+.App {
+    height: 50vh;
+    width: 50vw;
+    position: absolute;
+    right: 0px;
+  }
+  
+  .map-container {
+    position: static;
+    right: 0px;
+    height: 100%;
+    width: 100%;
+  }

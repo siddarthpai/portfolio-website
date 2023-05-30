@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,4 +7,7 @@ body
 {
   background-image: url("./images/back.jpg");
   height: full;
+  font-family: 'JetBrains Mono', monospace;
 }
+
+
