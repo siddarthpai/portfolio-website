@@ -1,6 +1,5 @@
 import { useState } from "react"; 
 import S from "./images/s.png"
-import About from "/home/sid/portfolio-website/portfolio/src/about/App"
 import './navbar.css';
 import { NavLink } from "react-router-dom";
 
