@@ -17,7 +17,7 @@ export default function Intro() {
             </div>
           <section>
             
-            <div id="intro" className=" ml-14 mr-14 mt-10 lg:ml-28 mr-28 text-4xl p-5 font-family: 'Poppins', sans-serif;">
+            <div id="intro" className=" ml-14 mr-14 mt-10 lg:ml-28 mr-28 text-4xl p-5">
               <p className='text-base font-light'>&lt; h1 &gt;</p>
               <h1 className='text-5xl md:text-8xl lg:text-8xl'>Hi,</h1>
               <h1 className='text-4xl md:text-8xl lg:text-8xl'>I'm Sid,</h1>

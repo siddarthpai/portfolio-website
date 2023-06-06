@@ -1,4 +1,4 @@
-import './app.css';
+import '../homepage/app.css';
 import React from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
