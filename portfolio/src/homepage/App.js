@@ -3,6 +3,7 @@ import React from 'react';
 import Intro from "./Intro"
 import Brief from './brief';
 import Navbar from "./navbar"
+import Socials from './socialfollow';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
             <Intro/>      
       </div>  
       <Brief/> 
+      <Socials/>
     </div>  
   );
 }

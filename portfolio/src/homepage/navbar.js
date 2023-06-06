@@ -43,13 +43,13 @@ export default function Header() {
             </div>
             <ul className="MENU-LINK-MOBILE-OPEN flex flex-col items-center justify-between min-h-[250px] text-black ">
               <li className="border-b border-gray-400 my-8 font-bold text-white">
-                <a href="/about" class="left" >~/About</a>
+                <a href="/about" class="left" >~./about</a>
               </li>
               <li className="border-b border-gray-400 my-8 font-bold text-white">
-                <a href="/portfolio" class="left">~/Blog</a>
+                <a href="/portfolio" class="left">~./blog</a>
               </li>
               <li className="border-b border-gray-400 my-8 font-bold text-white">
-                <a href="/contact" class="left">~/Contact</a>
+                <a href="/contact" class="left">~./contact</a>
               </li>
             </ul>
           </div>
@@ -57,13 +57,13 @@ export default function Header() {
 
         <ul className="DESKTOP-MENU hidden space-x-8 lg:flex m-4 p-8 text-2xl">
           <li>
-            <a href="{About}" class="left">~/About</a>
+            <a href="{About}" class="left">~./about</a>
           </li>
           <li>
-            <a href="/portfolio" class="left">~/Blog</a>
+            <a href="/portfolio" class="left">~./blog</a>
           </li>
           <li>
-            <a href="/contact" class="left">~/Contact</a>
+            <a href="/contact" class="left">~./contact</a>
           </li>
         </ul>
       </nav>
@@ -79,7 +79,7 @@ export default function Header() {
         top: 0;
         left: 0;
         background: rgba(255, 255, 255, 0.2); 
-        backdrop-filter: blur(4px); 
+        backdrop-filter: blur(6px); 
         z-index: 10;
         display: flex;
         flex-direction: column;
