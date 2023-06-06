@@ -1,7 +1,8 @@
 
 export default function Experience() {
     return (
-      <div>
+      <div className="ml- mr-10 lg:ml-28 mr-28 p-10">
+        <h1 className="text-yellow-100 mb-10 ml-14">My Experience:</h1>
         <table className="ml-6">
           <tr>
             <td>2023-present</td>
