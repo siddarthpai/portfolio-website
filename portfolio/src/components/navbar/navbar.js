@@ -33,7 +33,7 @@ function Navbar() {
                   }
                   onClick={closeMobileMenu}
                 >
-                  Home
+                  ~/
                 </NavLink>
               </li>
               <li className="nav-item">
@@ -44,7 +44,7 @@ function Navbar() {
                   }
                   onClick={closeMobileMenu}
                 >
-                  About
+                  ~./about
                 </NavLink>
               </li>
               <li className="nav-item">
@@ -55,7 +55,7 @@ function Navbar() {
                   }
                   onClick={closeMobileMenu}
                 >
-                  Contact
+                  ./contact
                 </NavLink>
               </li>
             </ul>
