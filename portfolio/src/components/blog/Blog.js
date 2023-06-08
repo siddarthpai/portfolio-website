@@ -8,8 +8,14 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Flutter from './img/flutter.jpg';
 import history from '../../history';
+import { useNavigate } from 'react-router-dom';
 
 export default function ImgMediaCard() {
+  let navigate = useNavigate(); 
+  const routeChange = () =>{ 
+    let path = `./blog1`; 
+    navigate(path);
+  }
   return (
     <div>
       <h1 className='text-white content-center text-center text-xl mb-20 mt-20 lg:text-3xl'>Welcome to my Blog Section!<br/> This is where I occassionaly type out my learnings and stuff I love to learn and explore.</h1>
@@ -29,7 +35,7 @@ export default function ImgMediaCard() {
       </CardContent>
       <CardActions>
         <Button size="small">Share</Button>
-        <Button size="small" onClick={()=> history.push('/blog/blog1')}>Read Article!</Button>
+        <Button size="small" onClick={routeChange}>Read Article!</Button>
       </CardActions>
     </Card>
 
