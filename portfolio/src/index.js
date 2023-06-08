@@ -12,6 +12,8 @@ import "./index.css";
 import About from "./components/about/about";
 import Contact from "./components/contact/contact";
 import Home from "./components/homepage/index";
+import Blog from "./components/blog/Blog"
+import Blog1 from "./components/blog/Blog1(Introduction To Flutter)/Blog1"
 const AppLayout = () => {
   return (
     <>
@@ -36,6 +38,14 @@ const router = createBrowserRouter([
       {
         path: "contact",
         element: <Contact />,
+      },
+      {
+        path: "blog",
+        element: <Blog />,
+      },
+      {
+        path:"blog/blog1",
+        element: <Blog1/>
       },
     ],
   },

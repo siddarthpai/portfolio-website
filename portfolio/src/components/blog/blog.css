@@ -1,0 +1,11 @@
+#card1
+{
+    backdrop-filter: blur(10px);
+}
+
+#blogbox
+{
+    color: #E2DCC8;
+    backdrop-filter: blur(30px);
+    width: fit-content;
+}
