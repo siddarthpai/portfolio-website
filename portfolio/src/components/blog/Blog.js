@@ -6,8 +6,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-import Flutter from './img/flutter.jpg';
-import history from '../../history';
+import imageflutter from '../../static/images/flutter.jpeg';
 import { useNavigate } from 'react-router-dom';
 
 export default function ImgMediaCard() {
@@ -20,10 +19,10 @@ export default function ImgMediaCard() {
     <div>
       <h1 className='text-white content-center text-center text-xl mb-20 mt-20 lg:text-3xl'>Welcome to my Blog Section!<br/> This is where I occassionaly type out my learnings and stuff I love to learn and explore.</h1>
       <Card id="card1" className='m-5 font' sx={{ maxWidth: 700 }}>
-      <CardMedia
+      <CardMedia 
         component="img"
-    
-        image={Flutter}
+        image={imageflutter}
+        alt="test"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">

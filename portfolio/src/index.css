@@ -6,7 +6,7 @@
 body
 {
   background-image: url("./images/back.jpg");
-  height: full;
+  height: '100vh';
   font-family: 'JetBrains Mono', monospace;
 }
 
