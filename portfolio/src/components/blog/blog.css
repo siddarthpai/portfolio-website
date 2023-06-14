@@ -1,11 +1,24 @@
-#card1
-{
-    backdrop-filter: blur(10px);
+Card{
+    font-family: 'JetBrains Mono', monospace;
 }
 
+#card {
+    background-color: #201c1c;
+    color: #E2DCC8;
+}
 #blogbox
 {
     color: #E2DCC8;
     backdrop-filter: blur(30px);
     width: fit-content;
+}
+
+#cardcontent
+{
+    color: #E2DCC8;
+}
+
+#button
+{
+    color: #E2DCC8;
 }
