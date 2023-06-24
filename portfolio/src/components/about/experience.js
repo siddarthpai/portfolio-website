@@ -29,8 +29,11 @@ export default function Experience() {
               ●Completed Level-1 in <a href="https://www.instagram.com/cie.pesu/">CIE</a> 📓
               <br />
               ●Started Exploring Rust and GO!💻 <br />
-              ●Built Websites for <a href="">Emtrepreneurship Club of PESUECC</a> using
-              Vite+Tailwind CSS <br />
+              ●Built Websites for{' '}
+              <a href="https://www.instagram.com/entrepreneurshipclub.pes/">
+                Emtrepreneurship Club of PESUECC
+              </a>{' '}
+              using Vite+Tailwind CSS <br />
               ●Started Working on Research Paper realted to AI/ML 📝
               <br />
               ●Built a Website using Next.js+Tailwind CSS for a startup{' '}
@@ -44,11 +47,35 @@ export default function Experience() {
           </tr>
           <tr>
             <td>2022</td>
-            <td className="text-left">The Eagles</td>
+            <td className="text-left">
+              ● Started off with the{' '}
+              <a href="siddarthpai.netlify.app">first edition of my website</a> built using HTML+CSS
+              [come a long way!] 🚧
+              <br />
+              ●Contributed to OpenSource in HacktoberFest 22' and won contributor goodies!🎃 <br />
+              ●Recruited by{' '}
+              <a href="https://www.instagram.com/peshackerspace.ecc/">HackerSpace PESUECC</a> as a
+              mentor 👨🏽‍🎓 <br />
+              ●Ventured into Competitve Coding! 💻
+              <br />
+              ●Became an active member of{' '}
+              <a href="https://www.instagram.com/entrepreneurshipclub.pes/">
+                Emtrepreneurship Club of PESUECC
+              </a>
+              💵 <br />
+              ●Built my first AI project! 🤖
+            </td>
           </tr>
           <tr>
             <td>2021</td>
-            <td className="text-left">Earth, Wind, and Fire</td>
+            <td className="text-left">
+              ●Started learning <a>Flutter</a> <br />
+              ●Built my first <a>Music Bot</a> 🎶
+              <br />
+              ●First time I contributed to OpenSource in HacktoberFest 21' and won contributor
+              goodies!🎃 <br />
+              ●Started editing videos on Premiere Pro! 🎬 <br />
+            </td>
           </tr>
         </tbody>
       </table>
