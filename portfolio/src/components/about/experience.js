@@ -2,7 +2,7 @@ export default function Experience() {
   return (
     <div className="lg:ml-28mr-28 p-10">
       <h1 className="mt-32 text-3xl lg:text-6xl text-yellow-100 mb-10 ml-14">My Experience:</h1>
-      <table class="table-auto text-white text-center border border-white">
+      <table class="table-auto text-white text-center border border-white text-xs">
         <thead className="text-center p-5">
           <tr>
             <th>Year</th>
