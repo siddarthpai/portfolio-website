@@ -31,3 +31,14 @@
   transform: rotate(270deg);
   margin-left: 10px;
 }
+
+td {
+  margin: 50px;
+  padding: 50px;
+  border: 1px solid white;
+}
+
+a {
+  color: #08fdd8;
+  text-decoration: underline;
+}
