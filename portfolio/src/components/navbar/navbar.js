@@ -1,36 +1,41 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
-import "./navbar.css";
-import NavIcon from "./images/s.png";
-import { FaBars, FaTimes } from "react-icons/fa";
-import { IconContext } from "react-icons/lib";
-import { NavLink } from "react-router-dom";
+import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
+import './navbar.css'
+import NavIcon from './images/s.png'
+import { FaBars, FaTimes } from 'react-icons/fa'
+import { IconContext } from 'react-icons/lib'
+import { NavLink } from 'react-router-dom'
 
 function Navbar() {
-  const [click, setClick] = useState(false);
+  const [click, setClick] = useState(false)
 
-  const handleClick = () => setClick(!click);
-  const closeMobileMenu = () => setClick(false);
+  const handleClick = () => setClick(!click)
+  const closeMobileMenu = () => setClick(false)
 
   return (
     <>
-      <IconContext.Provider value={{ color: "#fff" }}>
+      <IconContext.Provider value={{ color: '#fff' }}>
         <nav className="navbar">
           <div className="navbar-container container">
-            <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-              <img src={NavIcon}/>
+            <Link
+              to="/"
+              className="navbar-logo"
+              onClick={closeMobileMenu}
+            >
+              <img src={NavIcon} />
               Siddarth
             </Link>
-            <div className="menu-icon" onClick={handleClick}>
+            <div
+              className="menu-icon"
+              onClick={handleClick}
+            >
               {click ? <FaTimes /> : <FaBars />}
             </div>
-            <ul className={click ? "nav-menu active" : "nav-menu"}>
+            <ul className={click ? 'nav-menu active' : 'nav-menu'}>
               <li className="nav-item">
                 <NavLink
                   to="/"
-                  className={({ isActive }) =>
-                    "nav-links" + (isActive ? " activated" : "")
-                  }
+                  className={({ isActive }) => 'nav-links' + (isActive ? ' activated' : '')}
                   onClick={closeMobileMenu}
                 >
                   ~/
@@ -39,9 +44,7 @@ function Navbar() {
               <li className="nav-item">
                 <NavLink
                   to="/about"
-                  className={({ isActive }) =>
-                    "nav-links" + (isActive ? " activated" : "")
-                  }
+                  className={({ isActive }) => 'nav-links' + (isActive ? ' activated' : '')}
                   onClick={closeMobileMenu}
                 >
                   ~./about
@@ -50,9 +53,7 @@ function Navbar() {
               <li className="nav-item">
                 <NavLink
                   to="/blog"
-                  className={({ isActive }) =>
-                    "nav-links" + (isActive ? " activated" : "")
-                  }
+                  className={({ isActive }) => 'nav-links' + (isActive ? ' activated' : '')}
                   onClick={closeMobileMenu}
                 >
                   ~./blog
@@ -61,9 +62,7 @@ function Navbar() {
               <li className="nav-item">
                 <NavLink
                   to="/contact"
-                  className={({ isActive }) =>
-                    "nav-links" + (isActive ? " activated" : "")
-                  }
+                  className={({ isActive }) => 'nav-links' + (isActive ? ' activated' : '')}
                   onClick={closeMobileMenu}
                 >
                   ./contact
@@ -74,7 +73,7 @@ function Navbar() {
         </nav>
       </IconContext.Provider>
     </>
-  );
+  )
 }
 
-export default Navbar;
+export default Navbar

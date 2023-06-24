@@ -8,14 +8,16 @@ function About() {
     <div class="">
       <div class="h-screen">
         <Intro />
-        <div className="flex items-center justify-center">
+        <div className="flex w-screen justify-center items-center mb-16 mt-16">
           <img
-            className="mb-32 mt-16 h-48 lg:h-96"
+            className="h-36 lg:h-72"
             src={me}
           />
         </div>
       </div>
-      <Experience />
+      <div className="flex w-screen justify-center items-center mt-16">
+        <Experience />
+      </div>
       <Footer />
     </div>
   )

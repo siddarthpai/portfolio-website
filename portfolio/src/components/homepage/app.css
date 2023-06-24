@@ -1,134 +1,144 @@
-  .scroll-down {
-    position: absolute;
-    right: -20px;
-    bottom: 3.3rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    transform: rotate(90deg);
-    display: block;
-    font-size: 14px;
-    color: #E2DCC8;
+.scroll-down {
+  position: absolute;
+  right: -20px;
+  bottom: 3.3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(90deg);
+  display: block;
+  font-size: 14px;
+  color: #e2dcc8;
+}
+.scroll-down--left {
+  left: -30px;
+  right: auto;
+}
+.scroll-down span {
+  display: inline-block;
+  animation: scroll 0.5s linear infinite alternate-reverse;
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(-7px);
   }
-  .scroll-down--left {
-    left: -30px;
-    right: auto;
+  100% {
+    transform: translateX(7px);
   }
-  .scroll-down span {
-    display: inline-block;
-    animation: scroll 0.5s linear infinite alternate-reverse;
-  }
-  @keyframes scroll {
-    0% {
-      transform: translateX(-7px);
-    }
-    100% {
-      transform: translateX(7px);
-    }
-  }
-  .scroll-down .fas {
-    transform: rotate(270deg);
-    margin-left: 10px;
-  }
+}
+.scroll-down .fas {
+  transform: rotate(270deg);
+  margin-left: 10px;
+}
 
+.contact-button {
+  text-decoration: none;
+  width: 100%;
+  max-width: 200px;
+  height: 40px;
+  display: block;
+  line-height: 40px;
+  letter-spacing: 3px;
+  position: relative;
+  text-align: center;
+  color: #08fdd8;
+  margin-top: 50px;
+}
+.contact-button div {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+.contact-button span.bg {
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  left: -5px;
+  top: 0;
+  transition: all 0.3s ease-in-out;
+  background-color: #08fdd8;
+  transform: skewX(-19deg);
+}
+.contact-button:hover span.bg {
+  width: 110%;
+}
+.contact-button span.base {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  border: 1px solid #08fdd8;
+  box-sizing: border-box;
+}
+.contact-button span.text {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.contact-button:hover span.text {
+  color: #1d1d1d;
+}
 
+#brief {
+  width: fit-content;
+  height: fit-content;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: #1d1d1d;
+  color: #e2dcc8;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(2px);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 43%;
+}
 
-
-  .contact-button {
-    text-decoration: none;
-    width: 100%;
-    max-width: 200px;
-    height: 40px;
-    display: block;
-    line-height: 40px;
-    letter-spacing: 3px;
-    position: relative;
-    text-align: center;
-    color: #08fdd8;
-    margin-top: 50px;
-  }
-  .contact-button div {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    transition: all 0.3s ease-in-out;
-  }
-  .contact-button span.bg {
-    position: absolute;
-    width: 0%;
-    height: 100%;
-    left: -5px;
-    top: 0;
-    transition: all 0.3s ease-in-out;
-    background-color: #08fdd8;
-    transform: skewX(-19deg);
-  }
-  .contact-button:hover span.bg {
-    width: 110%;
-  }
-  .contact-button span.base {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    border: 1px solid #08fdd8;
-    box-sizing: border-box;
-  }
-  .contact-button span.text {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-  }
-  .contact-button:hover span.text {
-    color: #1d1d1d;
-  }
-
-
-  #brief
-  {
+@media screen and (max-width: 500px) {
+  #brief {
     width: fit-content;
     height: fit-content;
     border-radius: 15px;
-    padding:20px;
+    padding: 20px;
     background-color: #1d1d1d;
-    color: #E2DCC8;
-    background: rgba(255, 255, 255, 0.2); 
-    backdrop-filter: blur(2px); 
-    
+    color: #e2dcc8;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(2px);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+}
+.social-container {
+  padding: 25px 50px;
+  color: white;
+  text-align: center;
+  padding-bottom: 3px;
+}
 
-  }
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
 
-  .social-container {
-    padding: 25px 50px;
-    color: white;
-    text-align: center;
-    padding-bottom: 3px;
-  }
+a.social:hover {
+  transform: translateY(-2px);
+}
 
-  a.social {
-    margin: 0 1rem;
-    transition: transform 250ms;
-    display: inline-block;
-  }
+a.github {
+  color: white;
+}
 
-  a.social:hover {
-    transform: translateY(-2px);
-  }
-
-
-  a.github
-  {
-    color: white;
-  }
-  
-  a.instagram {
-    color: white;
-  }
-  a.linkedin
-  {
-    color: white;
-  }
+a.instagram {
+  color: white;
+}
+a.linkedin {
+  color: white;
+}
