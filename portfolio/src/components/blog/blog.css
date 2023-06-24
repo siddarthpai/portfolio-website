@@ -1,24 +1,55 @@
-Card{
-    font-family: 'JetBrains Mono', monospace;
+Card {
+  font-family: 'JetBrains Mono', monospace;
 }
 
 #card {
-    background-color: #201c1c;
-    color: #E2DCC8;
+  background-color: #201c1c;
+  color: #e2dcc8;
 }
-#blogbox
-{
-    color: #E2DCC8;
-    backdrop-filter: blur(30px);
-    width: fit-content;
-}
-
-#cardcontent
-{
-    color: #E2DCC8;
+#blogbox {
+  color: #e2dcc8;
+  backdrop-filter: blur(30px);
+  width: fit-content;
 }
 
-#button
-{
-    color: #E2DCC8;
+#cardcontent {
+  color: #e2dcc8;
+}
+
+#button {
+  color: #e2dcc8;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+@media only screen and (max-width: 600px) {
+  #card {
+    width: 250px;
+  }
+  .column {
+    width: 100%;
+    margin: 10px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  #card {
+    width: 250px;
+  }
+  .column {
+    width: 25%;
+    margin: 50px;
+    left: 50%;
+  }
+  .row {
+    left: 50%;
+  }
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: '';
+  display: table;
+  clear: both;
 }
