@@ -23,7 +23,8 @@ function Navbar() {
               onClick={closeMobileMenu}
             >
               <img src={NavIcon} />
-              Siddarth
+              <h1 className="hidden md:block lg:block">Siddarth Pai</h1>
+              <h1 className="md:hidden lg:hidden">Siddarth </h1>
             </Link>
             <div
               className="menu-icon"
