@@ -11,13 +11,13 @@ export default function Intro() {
         <h1 className="text-3xl lg:text-5xl text-white">
           <img
             src={me}
-            className="w-44 absolute right-5 lg:hidden"
+            className="w-44 absolute right-4  lg:hidden"
           />
           <img
             src={me}
             className="hidden lg:block float-right"
           />
-          Hey! <br /> I am Siddarth Pai <br />{' '}
+          Hey! <br /> I am Siddarth <br /> Pai <br />{' '}
         </h1>
       </div>
 
@@ -36,7 +36,7 @@ export default function Intro() {
       <h1>
         <br />
       </h1>
-      <p className="text-lg lg:text-2xl mt-5 text-white">
+      <p className="w-72 text-lg lg:text-2xl mt-5 text-white">
         I build accessible, inclusive products and digital experiences for the Web/Apps.
         <br />
         I'm also passoionate about Open Source, Linux and Machine Learning!
