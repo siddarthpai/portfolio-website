@@ -15,9 +15,11 @@ function Index() {
       >
         <Intro />
       </div>
-      <Skills />
-      <Brief />
+      <div className="relative bottom-16">
+        <Skills />
+      </div>
 
+      <Brief />
       <Socials />
     </div>
   )

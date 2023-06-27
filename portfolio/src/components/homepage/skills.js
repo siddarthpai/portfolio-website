@@ -13,7 +13,7 @@ import { FaDatabase } from 'react-icons/fa'
 export default function Skills() {
   return (
     <div className="text-white ">
-      <h1 className="text-3xl flex justify-center items-center">What I do!</h1>
+      <h1 className="text-3xl flex justify-center items-center ">What I do!</h1>
       <p className="text-sm text-center">
         Highly ambitious Full Stack Developer eager to delve into a wide array of technology
         horizons.
