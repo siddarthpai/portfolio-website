@@ -1,4 +1,5 @@
 import './about.css'
+import me from './images/me.jpg'
 
 export default function Intro() {
   return (
@@ -6,9 +7,20 @@ export default function Intro() {
       <h1>
         <br />
       </h1>
-      <h1 className="text-3xl lg:text-5xl text-white">
-        Hey! <br /> I am Siddarth Pai <br />{' '}
-      </h1>
+      <div>
+        <h1 className="text-3xl lg:text-5xl text-white">
+          <img
+            src={me}
+            className="w-44 absolute right-5 lg:hidden"
+          />
+          <img
+            src={me}
+            className="hidden lg:block float-right"
+          />
+          Hey! <br /> I am Siddarth Pai <br />{' '}
+        </h1>
+      </div>
+
       <h1>
         <br />
       </h1>
@@ -24,7 +36,7 @@ export default function Intro() {
       <h1>
         <br />
       </h1>
-      <p className="text-xl lg:text-2xl mt-5 text-white">
+      <p className="text-lg lg:text-2xl mt-5 text-white">
         I build accessible, inclusive products and digital experiences for the Web/Apps.
         <br />
         I'm also passoionate about Open Source, Linux and Machine Learning!

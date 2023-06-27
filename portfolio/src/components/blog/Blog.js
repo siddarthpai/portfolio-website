@@ -10,6 +10,7 @@ import imageflutter from './image/flutter.png'
 import { useNavigate } from 'react-router-dom'
 import { ThemeProvider } from 'styled-components'
 import { createTheme } from '@mui/material'
+import Footer from '../footer/socialfollow'
 
 const theme = createTheme({
   typography: {
@@ -37,11 +38,14 @@ export default function ImgMediaCard() {
   }
   return (
     <div>
-      <h1 className="text-white content-center text-center text-xl mb-20 mt-20 lg:text-3xl">
+      <h1 className="text-white content-center text-center text-xl mb-5 mt-20 lg:text-3xl">
         Welcome to my Blog Section!
-        <br /> This is where I occassionaly type out my learnings and stuff I love to learn and
-        explore.
+        <br />
       </h1>
+      <p className="text-white content-center text-center text-sm mb-20 lg:text-xl">
+        This is my chill zone, where I casually share my learnings and dive into the things I
+        absolutely love to explore.
+      </p>
       <div className="w-screen h-screen grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 place-items-center text-white">
         <div>
           <Card
@@ -289,6 +293,9 @@ export default function ImgMediaCard() {
             </CardActions>
           </Card>
         </div>
+      </div>
+      <div className="absolute bottom-0">
+        <Footer />
       </div>
     </div>
   )
