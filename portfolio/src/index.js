@@ -8,6 +8,7 @@ import Contact from './components/contact/contact'
 import Home from './components/homepage/index'
 import Blog from './components/blog/index'
 import Blog1 from './components/blog/Blog1(Introduction To Flutter)/Blog1'
+import Blog2 from './components/blog/Blog2(IntrotoVimpt1)/Blog2'
 const AppLayout = () => {
   return (
     <>
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
       {
         path: 'blog/blog1',
         element: <Blog1 />
+      },
+      {
+        path: 'blog/blog2',
+        element: <Blog2 />
       }
     ]
   }

@@ -1,11 +1,14 @@
-import React from 'react';
-import Map from './map.js'
+import React from 'react'
+import Map from './map'
 function App() {
   return (
-    <div className="font-family: 'Poppins', sans-serif;">
-      <Map/>
-    </div>  
-  );
+    <div>
+      <div></div>
+      <div className="hidden lg:block">
+        <Map />
+      </div>
+    </div>
+  )
 }
 
-export default App;
+export default App

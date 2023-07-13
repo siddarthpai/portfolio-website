@@ -1,5 +1,5 @@
 Card {
-  font-family: 'JetBrains Mono', monospace;
+  font-family: "JetBrains Mono", monospace;
 }
 
 #card {
@@ -8,7 +8,7 @@ Card {
 }
 #blogbox {
   color: #e2dcc8;
-  backdrop-filter: blur(30px);
+  backdrop-filter: blur(3px);
   width: fit-content;
 }
 
@@ -17,7 +17,6 @@ Card {
 }
 
 #button {
-  color: #e2dcc8;
 }
 
 .column {
@@ -49,7 +48,7 @@ Card {
 
 /* Clear floats after the columns */
 .row:after {
-  content: '';
+  content: "";
   display: table;
   clear: both;
 }

@@ -7,9 +7,8 @@ function About() {
     <div class="">
       <div class="h-screen">
         <Intro />
-        <div className="flex w-screen justify-center items-center mb-16 mt-16"></div>
       </div>
-      <div className="flex w-screen justify-center items-center mt-16">
+      <div>
         <Experience />
       </div>
       <Footer />
